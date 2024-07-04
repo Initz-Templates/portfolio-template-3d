@@ -5,7 +5,7 @@ import { currentProjectAtom, projects } from "./Projects";
 import githubIcon from "/src/icons/gh.gif";
 import codechefIcon from "/src/icons/cc.gif";
 import LinkedInIcon from "/src/icons/linkedin.gif";
-import LeetcodeIcon from "/src/icons/Leetcode.gif";
+// import LeetcodeIcon from "/src/icons/Leetcode.gif";
 import codeforcesIcon from "/src/icons/Codeforces.gif";
 import PinterestIcon from "/src/icons/Pinterest.gif";
 import GFGIcon from "/src/icons/GFG.gif";
@@ -124,9 +124,9 @@ const AboutSection = (props) => {
         <a href="https://github.com/initializ" target="_blank">
           <AnimatedIcon src={githubIcon} alt="GitHub" />
         </a>
-        <a href="https://leetcode.com/" target="_blank">
+{/*         <a href="https://leetcode.com/" target="_blank">
           <AnimatedIcon src={LeetcodeIcon} alt="LeetCode" />
-        </a>
+        </a> */}
         <a href="https://www.codechef.com/" target="_blank">
           <AnimatedIcon src={codechefIcon} alt="CodeChef" />
         </a>
